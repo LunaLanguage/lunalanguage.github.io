@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/zohan/Downloads/lunalanguage.github.io/404.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #2e003e, #4b0082); /* Darker gradient purple */
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10%;
+            overflow: hidden;
+            position: relative;
+        }
+        .text {
+            text-align: left;
+        }
+        h1 {
+            font-size: 5rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .art {
+            position: relative;
+            width: 40%;
+            height: 100%;
+        }
+        .cube {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(45deg);
+            animation: float 5s infinite alternate ease-in-out;
+        }
+        @keyframes float {
+            from { transform: translateY(0) rotate(45deg); }
+            to { transform: translateY(-20px) rotate(45deg); }
+        }
+        .cube:nth-child(1) { top: 10%; left: 20%; animation-duration: 6s; }
+        .cube:nth-child(2) { top: 30%; left: 70%; animation-duration: 4s; }
+        .cube:nth-child(3) { top: 50%; left: 40%; animation-duration: 7s; }
+        .cube:nth-child(4) { top: 70%; left: 80%; animation-duration: 5s; }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>404 Luna Webpage Error</h1>
+        <p>Oops! The page you are looking for is not found</p>
+    </div>
+    <div class="art">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+
+</body></html>
