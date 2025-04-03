@@ -25,9 +25,9 @@ app.get("/download", (req, res) => {
     res.redirect(downloadPath);
 });
 
-// Handle 404 errors (redirect to 404.html)
+// Handle 404 errors (redirect to FileNotFoundError.html)
 app.use((req, res) => {
-    res.status(404).sendFile(path.join(__dirname, "404.html"));
+    res.status(404).sendFile(path.join(__dirname, "FileNotFoundError.html"));
 });
 
 // Start the server
